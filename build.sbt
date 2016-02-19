@@ -24,7 +24,7 @@ resolvers += "Guardian Github Releases" at "http://guardian.github.io/maven/repo
 libraryDependencies ++= Seq(
   "com.gu.identity" %% "identity-play-auth" % "0.14",
   "com.gu" %% "identity-test-users" % "0.5",
-  "com.gu" %% "play-googleauth" % "0.3.5",
+  "com.gu" %% "play-googleauth" % "0.3.7",
   "com.typesafe.play" %% "filters-helpers" % "2.4.6",
   "com.amazonaws" % "aws-java-sdk-s3" % "1.10.50",
   "org.scalatest" %% "scalatest" % "2.2.6" % "test"
