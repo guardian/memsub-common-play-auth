@@ -22,7 +22,7 @@ updateOptions := updateOptions.value.withCachedResolution(true)
 resolvers += "Guardian Github Releases" at "http://guardian.github.io/maven/repo-releases"
 
 libraryDependencies ++= Seq(
-  "com.gu.identity" %% "identity-play-auth" % "0.14",
+  "com.gu.identity" %% "identity-play-auth" % "0.15",
   "com.gu" %% "identity-test-users" % "0.5",
   "com.gu" %% "play-googleauth" % "0.3.7",
   "com.typesafe.play" %% "filters-helpers" % "2.4.6",
