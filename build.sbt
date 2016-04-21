@@ -4,7 +4,7 @@ name := "memsub-common-play-auth"
 
 organization := "com.gu"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
 crossScalaVersions := Seq(scalaVersion.value)
 
@@ -19,10 +19,14 @@ licenses := Seq("Apache V2" -> url("http://www.apache.org/licenses/LICENSE-2.0.h
 
 updateOptions := updateOptions.value.withCachedResolution(true)
 
-resolvers += "Guardian Github Releases" at "http://guardian.github.io/maven/repo-releases"
+resolvers ++= Seq(
+  "Guardian Github Releases" at "http://guardian.github.io/maven/repo-releases",
+  Resolver.sonatypeRepo("releases")
+)
+
 
 libraryDependencies ++= Seq(
-  "com.gu.identity" %% "identity-play-auth" % "0.18",
+  "com.gu.identity" %% "identity-play-auth" % "0.19",
   "com.gu" %% "identity-test-users" % "0.5",
   "com.gu" %% "play-googleauth" % "0.3.7",
   "com.typesafe.play" %% "filters-helpers" % "2.4.6",
