@@ -26,7 +26,7 @@ resolvers ++= Seq(
 
 
 libraryDependencies ++= Seq(
-  "com.gu.identity" %% "identity-play-auth" % "0.19",
+  "com.gu.identity" %% "identity-play-auth" % "0.20",
   "com.gu" %% "identity-test-users" % "0.5",
   "com.gu" %% "play-googleauth" % "0.3.7",
   "com.typesafe.play" %% "filters-helpers" % "2.4.6",
