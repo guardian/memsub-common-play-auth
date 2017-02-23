@@ -10,7 +10,7 @@ object MemSub {
 
   object AWSCredentialsProvider {
     val Dev = new ProfileCredentialsProvider("membership")
-    val Prod = new InstanceProfileCredentialsProvider()
+    val Prod = InstanceProfileCredentialsProvider.getInstance
     val Chain = new AWSCredentialsProviderChain(Dev, Prod)
   }
 
