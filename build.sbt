@@ -26,9 +26,9 @@ resolvers ++= Seq(
 
 
 libraryDependencies ++= Seq(
-  "com.gu.identity" %% "identity-play-auth" % "1.0",
-  "com.gu" %% "identity-test-users" % "0.5",
-  "com.gu" %% "play-googleauth" % "0.5.0",
+  "com.gu.identity" %% "identity-play-auth" % "1.2",
+  "com.gu" %% "identity-test-users" % "0.6",
+  "com.gu" %% "play-googleauth" % "0.6.0",
   "com.amazonaws" % "aws-java-sdk-s3" % "1.11.19",
   "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 )

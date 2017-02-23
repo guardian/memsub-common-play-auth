@@ -29,7 +29,7 @@ object MemSub {
         c.getString("client.id"),
         c.getString("client.secret"),
         c.getString("callback"),
-        Some(GuardianAppsDomain)        // Google App domain to restrict login
+        GuardianAppsDomain        // Google App domain to restrict login
       )
     }
 
