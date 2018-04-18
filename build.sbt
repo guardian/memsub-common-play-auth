@@ -31,6 +31,7 @@ libraryDependencies ++= Seq(
   "com.gu" %% "play-googleauth" % "0.6.0",
   "com.amazonaws" % "aws-java-sdk-s3" % "1.11.313",
   "org.scala-lang" % "scala-compiler" % "2.11.12",
+  "com.fasterxml.jackson.core" % "jackson-databind" % "2.8.11.1",
   "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 )
 
