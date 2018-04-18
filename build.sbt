@@ -4,7 +4,7 @@ name := "memsub-common-play-auth"
 
 organization := "com.gu"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.11.12"
 
 crossScalaVersions := Seq(scalaVersion.value)
 
@@ -29,8 +29,8 @@ libraryDependencies ++= Seq(
   "com.gu.identity" %% "identity-play-auth" % "1.3",
   "com.gu" %% "identity-test-users" % "0.6",
   "com.gu" %% "play-googleauth" % "0.6.0",
-  "com.amazonaws" % "aws-java-sdk-s3" % "1.11.231",
-  "org.scala-lang" % "scala-compiler" % "2.11.8",
+  "com.amazonaws" % "aws-java-sdk-s3" % "1.11.313",
+  "org.scala-lang" % "scala-compiler" % "2.11.12",
   "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 )
 
