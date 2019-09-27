@@ -20,7 +20,7 @@ licenses := Seq("Apache V2" -> url("http://www.apache.org/licenses/LICENSE-2.0.h
 updateOptions := updateOptions.value.withCachedResolution(true)
 
 resolvers ++= Seq(
-  "Guardian Github Releases" at "http://guardian.github.io/maven/repo-releases",
+  "Guardian Github Releases" at "https://guardian.github.io/maven/repo-releases",
   Resolver.sonatypeRepo("releases")
 )
 
